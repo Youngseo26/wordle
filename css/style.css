@@ -1,0 +1,78 @@
+@import "reset.css";
+@import "header.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.board_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.board_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 30px 0 30px 0;
+}
+
+.keyboard_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 12px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  background-color: #d4d6da;
+  width: 30px;
+  height: 40px;
+  border-radius: 10%;
+}
+
+.key_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  background-color: #d4d6da;
+  width: 60px;
+  height: 40px;
+  border-radius: 10%;
+}
+.key_back img {
+  width: 20px;
+  height: 20px;
+}
+
+.key_enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  background-color: #d4d6da;
+  width: 60px;
+  height: 40px;
+  border-radius: 10%;
+}
