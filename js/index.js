@@ -7,8 +7,8 @@ let timer;
 function appStart() {
   const displayGameOver = () => {
     const div = document.createElement("div");
-    div.innerText =
-      "게임이 종료되었습니다." +
+    div.innerHTML =
+      "게임이 종료되었습니다.<br/>" +
       "소요시간 : " +
       document.getElementById("time").innerText; //줄바꿈 왜 안되는가.....
     div.style =
